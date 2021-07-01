@@ -27,6 +27,16 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-12-161.eu-central-1.compute.internal-releases</name>
+        <url>http://18.194.197.205:8081/artifactory/maven</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-12-161.eu-central-1.compute.internal-snapshots</name>
+        <url>http://18.194.197.205:8081/artifactory/maven</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <build>
@@ -207,10 +217,10 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
+    <connection>scm:git:git@github.com:nemezisSherokee/hello-world.git</connection>
+    <developerConnection>scm:git:git@github.com:nemezisSherokee/hello-world.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
+    <url>http://github.com/nemezisSherokee/hello-world</url>
   </scm>
 
   <prerequisites>
